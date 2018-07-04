@@ -98,7 +98,7 @@ DEBUG_PROD=true npm run package
 
 ## How to add modules to the project
 
-You will need to add other modules to this boilerplate, depending on the requirements of your project. For example, you may want to add [node-postgres](https://github.com/brianc/node-postgres) to communicate with PostgreSQL database, or 
+You will need to add other modules to this boilerplate, depending on the requirements of your project. For example, you may want to add [node-postgres](https://github.com/brianc/node-postgres) to communicate with PostgreSQL database, or
 [material-ui](http://www.material-ui.com/) to reuse react UI components.
 
 ⚠️ Please read the following section before installing any dependencies ⚠️
@@ -255,3 +255,6 @@ MIT © [C. T. Lin](https://github.com/chentsulin)
 [appveyor-url]: https://ci.appveyor.com/project/chentsulin/electron-react-boilerplate/branch/master
 [david_img]: https://img.shields.io/david/chentsulin/electron-react-boilerplate.svg
 [david_site]: https://david-dm.org/chentsulin/electron-react-boilerplate
+
+
+asas
