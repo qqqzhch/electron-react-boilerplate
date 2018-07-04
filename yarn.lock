@@ -3486,6 +3486,10 @@ ejs@~2.5.6:
   version "2.5.9"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.5.9.tgz#7ba254582a560d267437109a68354112475b0ce5"
 
+electron-better-ipc@0.1.1:
+  version "0.1.1"
+  resolved "http://registry.npm.taobao.org/electron-better-ipc/download/electron-better-ipc-0.1.1.tgz#36c54a20499ecb061564ac82c054e88611b90efb"
+
 electron-builder-lib@20.14.7, electron-builder-lib@~20.14.6:
   version "20.14.7"
   resolved "https://registry.yarnpkg.com/electron-builder-lib/-/electron-builder-lib-20.14.7.tgz#db91977dd13b0a288e1da5629183807a9847de21"

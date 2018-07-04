@@ -13,6 +13,13 @@
 import { app, BrowserWindow } from 'electron';
 import MenuBuilder from './menu';
 
+const ipc = require('electron-better-ipc');
+
+ipc.answerRenderer('test', async emojiName => {
+    // const emoji = await getEmoji(emojiName);
+    return 'abcss';
+});
+
 let mainWindow = null;
 
 if (process.env.NODE_ENV === 'production') {

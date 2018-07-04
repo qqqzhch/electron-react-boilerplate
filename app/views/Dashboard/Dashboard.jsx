@@ -30,6 +30,7 @@ import CardHeader from "components/Card/CardHeader.jsx";
 import CardIcon from "components/Card/CardIcon.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 import CardFooter from "components/Card/CardFooter.jsx";
+import Button from "components/CustomButtons/Button.jsx";
 
 import { bugs, website, server } from "variables/general";
 
@@ -40,6 +41,11 @@ import {
 } from "variables/charts";
 
 import dashboardStyle from "assets/jss/material-dashboard-react/views/dashboardStyle.jsx";
+const ipc = require('electron-better-ipc');
+
+
+
+
 
 class Dashboard extends React.Component {
   state = {
@@ -52,11 +58,18 @@ class Dashboard extends React.Component {
   handleChangeIndex = index => {
     this.setState({ value: index });
   };
+  async testipc(){
+    const emoji = await ipc.callMain('test', 'unicorn');
+    console.log(emoji);
+    alert(emoji)
+  }
   render() {
     const { classes } = this.props;
     return (
       <div>
+      <Button onClick={this.testipc} color="primary"> 数据通信测试 </Button>
         <Grid container>
+
           <GridItem xs={12} sm={6} md={3}>
             <Card>
               <CardHeader color="warning" stats icon>
