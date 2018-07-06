@@ -8,7 +8,7 @@
 
 ## use material-dashboard-react
 [material-dashboard](https://github.com/creativetimofficial/material-dashboard-react.git)
-
+![alt text](https://s3.amazonaws.com/creativetim_bucket/products/71/original/opt_mdr_thumbnail.jpg "Material Dashboard Free React")
 ## Install
 
 * **Note: requires a node version >= 7 and an npm version >= 4.**
